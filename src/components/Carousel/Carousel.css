@@ -1,10 +1,10 @@
 .carousel-container {
-  height: 80%;
-  width: 80%;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 
+/*Transition effect*/
 /*Enter transition*/
 .card-transition-enter {
     opacity: 0;
