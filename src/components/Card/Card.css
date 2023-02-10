@@ -1,15 +1,17 @@
-.card { 
+.card {
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+    height: 300px;
+    max-width: 700px;
+
 }
-.card img{ 
-    height: 600px;
-    max-width: 900px;
+
+.card img {
+    height: 300px;
+    max-width: 600px;
     border-radius: 5%;
     box-shadow: 6px 6px 6px gray;
-    
+    margin: 0 auto;
+
 }
-
-

@@ -1,36 +1,37 @@
 .carousel-container {
   display: flex;
   flex-direction: column;
+  width: 60%;
+  height: 60%;
+  padding: 0;
 }
 
 
 /*Transition effect*/
 /*Enter transition*/
 .card-transition-enter {
-    opacity: 0;
-  }
-  
-  .card-transition-enter-active {
-    opacity: 1;
-    transition: opacity 3000ms;
-  }
-  
-  .card-transition-enter-done {
-    opacity: 1;
-  }
-  
- /*Exit transition*/
-  .card-transition-exit {
-    opacity: 1;
-  }
-  
-  .card-transition-exit-active {
-    opacity: 0;
-    transition: opacity 3000ms;
-  }
-  
-  .card-transition-exit-done {
-    opacity: 1;
-  }
+  opacity: 0;
+}
 
+.card-transition-enter-active {
+  opacity: 1;
+  transition: opacity 3000ms;
+}
 
+.card-transition-enter-done {
+  opacity: 1;
+}
+
+/*Exit transition*/
+.card-transition-exit {
+  opacity: 1;
+}
+
+.card-transition-exit-active {
+  opacity: 0;
+  transition: opacity 3000ms;
+}
+
+.card-transition-exit-done {
+  opacity: 1;
+}
