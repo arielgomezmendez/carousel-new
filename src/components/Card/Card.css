@@ -4,14 +4,20 @@
     text-align: center;
     height: 300px;
     max-width: 700px;
+}
 
+.image-container {
+    height: 300px;
+    max-width: 500px;
+    border-radius: 5%;
+    box-shadow: 6px 6px 6px gray;
+    margin: 0 auto;
 }
 
 .card img {
     height: 300px;
     max-width: 600px;
     border-radius: 5%;
-    box-shadow: 6px 6px 6px gray;
-    margin: 0 auto;
-
+    overflow-y: hidden;
+    overflow-x: hidden;
 }

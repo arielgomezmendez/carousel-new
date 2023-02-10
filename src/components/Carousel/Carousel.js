@@ -35,10 +35,10 @@ const Carousel = () => {
         <Card card={cards[index]} />
       </CSSTransition>
       <div className="buttons-container">
-        <button onClick={handlePrev}>
+        <button className="button-prev" onClick={handlePrev}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-chevron-left"
+            className="icon icon-tabler icon-tabler-chevron-left"
             width="44"
             height="44"
             viewBox="0 0 24 24"
@@ -52,10 +52,10 @@ const Carousel = () => {
             <polyline points="15 6 9 12 15 18" />
           </svg>
         </button>
-        <button onClick={handleNext}>
+        <button className="button-next" onClick={handleNext}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-chevron-right"
+            className="icon icon-tabler icon-tabler-chevron-right"
             width="44"
             height="44"
             viewBox="0 0 24 24"

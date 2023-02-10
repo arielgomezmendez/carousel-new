@@ -6,6 +6,34 @@
   padding: 0;
 }
 
+.buttons-container {
+  width: 50%;
+  height: 8%;
+  position: absolute;
+  bottom: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 20px;
+
+
+}
+
+.button-next,
+.button-prev {
+  background-color: transparent;
+  border: none;
+  margin-left: 20px;
+}
+
+.button-prev {
+  margin-right: 20px;
+}
+
+.icon {
+  color: blue;
+}
 
 /*Transition effect*/
 /*Enter transition*/
