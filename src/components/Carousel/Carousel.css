@@ -10,21 +10,19 @@
   width: 50%;
   height: 8%;
   position: absolute;
-  bottom: 200px;
+  top: 350px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0;
-  margin-left: 20px;
-
-
+  margin-left: 100px;
 }
 
 .button-next,
 .button-prev {
   background-color: transparent;
   border: none;
-  margin-left: 20px;
+ 
 }
 
 .button-prev {
